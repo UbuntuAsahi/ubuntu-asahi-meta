@@ -1,0 +1,20 @@
+Source: ubuntu-asahi
+Section: metapackages
+Priority: optional
+Maintainer: Tobias Heider <me@tobhe.de>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 3.9.2
+Rules-Requires-Root: no
+
+Package: ubuntu-asahi
+Architecture: all
+Depends:
+	asahi-scripts,
+	linux-image-5.19.5-10-asahi,
+	linux-modules-5.19.5-10-asahi,
+	m1n1,
+	u-boot-asahi,
+Multi-Arch: foreign
+Description: Packages for Apple Silicon
+ This package depends on all of the packages required to run Ubuntu
+ on Apple Silicon hardware.

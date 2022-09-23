@@ -1,0 +1,28 @@
+ubuntu-asahi (1.4) jammy; urgency=medium
+
+  * Handle bootloader updates
+    - Add dependencies for m1n1 and u-boot
+    - Add trigger to run update-m1n1 from asahi-scripts on
+      bootloader component updates
+  * Remove unused boilerplate
+  * Update to newest kernel
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 23 Sep 2022 15:28:37 +0200
+
+ubuntu-asahi (1.3) jammy; urgency=medium
+
+  * Add dependency for asahi-scripts
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 07 Sep 2022 16:23:18 +0200
+
+ubuntu-asahi (1.2) jammy; urgency=medium
+
+  * Update to kernel 5.19.5-9
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 07 Sep 2022 10:09:09 +0200
+
+ubuntu-asahi (1.1) jammy; urgency=low
+
+  * First version
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 07 Sep 2022 00:40:47 +0200
