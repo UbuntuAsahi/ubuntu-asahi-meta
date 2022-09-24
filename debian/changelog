@@ -1,3 +1,9 @@
+ubuntu-asahi (1.5) jammy; urgency=medium
+
+  * Change triggers to noawait
+
+ -- Tobias Heider <me@tobhe.de>  Sat, 24 Sep 2022 17:06:49 +0200
+
 ubuntu-asahi (1.4) jammy; urgency=medium
 
   * Handle bootloader updates
