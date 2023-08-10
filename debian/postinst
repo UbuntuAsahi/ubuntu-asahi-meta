@@ -4,6 +4,18 @@ set -e
 
 case "$1" in
 	configure)
+		# XXX: Fix ownership
+		chown root:root /
+		chown root:root /etc
+		chown root:root /etc/fstab
+
+		# XXX: Fix capabilities
+		if [ -f "/usr/bin/ping" ]; then
+			setcap cap_net_raw=ep /usr/bin/ping
+		fi
+		if [ -f "/usr/bin/mtr-packet" ]; then
+			setcap cap_net_raw=ep /usr/bin/mtr-packet
+		fi
 	;;
 
 	triggered)

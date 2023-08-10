@@ -1,3 +1,33 @@
+ubuntu-asahi (1.10) jammy; urgency=medium
+
+  * Handle non-existing files in postinst hook
+
+ -- Tobias Heider <me@tobhe.de>  Tue, 25 Apr 2023 14:46:08 +0200
+
+ubuntu-asahi (1.9) jammy; urgency=medium
+
+  * Add alsa-ucm-conf-asahi and asahi-configs
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 14 Dec 2022 01:37:25 +0100
+
+ubuntu-asahi (1.8) jammy; urgency=medium
+
+  * Switch to arm64 only
+
+ -- Tobias Heider <me@tobhe.de>  Sat, 26 Nov 2022 01:45:23 +0100
+
+ubuntu-asahi (1.7) jammy; urgency=medium
+
+  * Move to linux-meta-asahi for kernel
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 25 Nov 2022 14:14:43 +0100
+
+ubuntu-asahi (1.6) jammy; urgency=medium
+
+  * Add postinst fixes for broken capabilities and permissions
+
+ -- Tobias Heider <me@tobhe.de>  Mon, 07 Nov 2022 10:57:10 +0100
+
 ubuntu-asahi (1.5) jammy; urgency=medium
 
   * Change triggers to noawait

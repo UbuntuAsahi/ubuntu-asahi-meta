@@ -1,3 +1,2 @@
 interest-noawait /usr/share/m1n1/m1n1.bin
 interest-noawait /usr/share/u-boot-asahi
-interest-noawait /lib/firmware/*-asahi/device-tree/apple

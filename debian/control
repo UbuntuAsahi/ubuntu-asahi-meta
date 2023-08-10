@@ -7,11 +7,12 @@ Standards-Version: 3.9.2
 Rules-Requires-Root: no
 
 Package: ubuntu-asahi
-Architecture: all
+Architecture: arm64
 Depends:
+	alsa-ucm-conf-asahi,
+	asahi-configs,
 	asahi-scripts,
-	linux-image-5.19.5-10-asahi,
-	linux-modules-5.19.5-10-asahi,
+	linux-asahi,
 	m1n1,
 	u-boot-asahi,
 Multi-Arch: foreign
