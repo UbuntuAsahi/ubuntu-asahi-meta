@@ -4,18 +4,8 @@ set -e
 
 case "$1" in
 	configure)
-		# XXX: Fix ownership
-		chown root:root /
-		chown root:root /etc
-		chown root:root /etc/fstab
-
-		# XXX: Fix capabilities
-		if [ -f "/usr/bin/ping" ]; then
-			setcap cap_net_raw=ep /usr/bin/ping
-		fi
-		if [ -f "/usr/bin/mtr-packet" ]; then
-			setcap cap_net_raw=ep /usr/bin/mtr-packet
-		fi
+		echo Refresh gnome-42-2204 snap to asahi/stable channel
+		snap refresh --channel asahi/stable --no-wait gnome-42-2204 || true
 	;;
 
 	triggered)
@@ -32,5 +22,3 @@ case "$1" in
 esac
 
 #DEBHELPER#
-
-exit 0
