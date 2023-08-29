@@ -1,3 +1,9 @@
+ubuntu-asahi (1.12) jammy; urgency=medium
+
+  * Update m1n1 and u-boot paths in trigger
+
+ -- Tobias Heider <me@tobhe.de>  Mon, 28 Aug 2023 19:51:48 +0200
+
 ubuntu-asahi (1.11) jammy; urgency=medium
 
   * Switch gnome-42-2204 channel to asahi/stable to makes sure
