@@ -1,3 +1,9 @@
+ubuntu-asahi (1.14) jammy; urgency=medium
+
+  * Disable apparmor restrict_unprivileged hardening for now.
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 20 Sep 2023 11:59:19 +0200
+
 ubuntu-asahi (1.12) jammy; urgency=medium
 
   * Update m1n1 and u-boot paths in trigger
