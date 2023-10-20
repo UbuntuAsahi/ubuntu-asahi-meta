@@ -1,3 +1,9 @@
+ubuntu-asahi (1.15) jammy; urgency=medium
+
+  * Switch to new linux-apple-arm kernel builds
+
+ -- Tobias Heider <me@tobhe.de>  Tue, 03 Oct 2023 15:59:47 +0200
+
 ubuntu-asahi (1.14) jammy; urgency=medium
 
   * Disable apparmor restrict_unprivileged hardening for now.
