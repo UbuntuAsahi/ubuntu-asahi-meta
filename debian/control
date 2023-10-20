@@ -15,6 +15,7 @@ Depends:
 	linux-apple-arm,
 	m1n1,
 	u-boot-asahi,
+	grub-efi-arm64
 Multi-Arch: foreign
 Description: Packages for Apple Silicon
  This package depends on all of the packages required to run Ubuntu
