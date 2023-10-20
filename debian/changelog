@@ -1,3 +1,10 @@
+ubuntu-asahi (1.16) jammy; urgency=medium
+
+  * Add explicit grub-efi-arm64 dependency to drop hack in
+    livecd-rootfs
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 20 Oct 2023 19:30:27 +0200
+
 ubuntu-asahi (1.15) jammy; urgency=medium
 
   * Switch to new linux-apple-arm kernel builds
