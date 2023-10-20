@@ -12,7 +12,7 @@ Depends:
 	alsa-ucm-conf-asahi,
 	asahi-configs,
 	asahi-scripts,
-	linux-asahi,
+	linux-apple-arm,
 	m1n1,
 	u-boot-asahi,
 Multi-Arch: foreign
