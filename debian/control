@@ -10,6 +10,7 @@ Package: ubuntu-asahi
 Architecture: arm64
 Depends:
 	alsa-ucm-conf-asahi,
+	asahi-audio,
 	asahi-configs,
 	asahi-scripts,
 	linux-apple-arm,
