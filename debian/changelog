@@ -1,3 +1,9 @@
+ubuntu-asahi (1.17) jammy; urgency=medium
+
+  * Add asahi-audio dependency
+
+ -- Tobias Heider <me@tobhe.de>  Thu, 28 Dec 2023 11:03:50 +0100
+
 ubuntu-asahi (1.16) jammy; urgency=medium
 
   * Add explicit grub-efi-arm64 dependency to drop hack in
