@@ -1,1 +1,3 @@
-debian/9-asahi.conf	/etc/sysctl.d
+debian/9-asahi.conf		/etc/sysctl.d
+debian/apt/ubuntu-asahi.sources	/etc/apt/sources.list.d
+debian/apt/ubuntu-asahi.pref	/etc/apt/preferences.d

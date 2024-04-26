@@ -1,3 +1,9 @@
 #!/usr/bin/make -f
 %:
 	dh $@
+
+override_dh_auto_install:
+	sed -e "s/UBUNTU_RELEASE/$$(dpkg-parsechangelog -SDistribution)/g" \
+	    debian/apt/ubuntu-asahi.sources.in > \
+	    debian/apt/ubuntu-asahi.sources
+	dh_auto_install
