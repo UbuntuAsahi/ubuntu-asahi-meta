@@ -18,6 +18,7 @@ Depends:
 	m1n1,
 	u-boot-asahi,
 	grub-efi-arm64
+Conflicts: protection-domain-mapper
 Multi-Arch: foreign
 Description: Packages for Apple Silicon
  This package depends on all of the packages required to run Ubuntu
