@@ -1,3 +1,16 @@
+ubuntu-asahi (1.18) jammy; urgency=medium
+
+  * Move package distribution to the new launchpad team at ~ubuntu-asahi
+    - Add and pin ppa:ubuntu-asahi/ubuntu-asahi
+  * Declare conflict with protection-domain-mapper since it causes startup
+    errors.
+  * Disable cloud-init via /etc/cloud/cloud-init.disabled
+  * Enable RELEASE_UPGRADER_ALLOW_THIRD_PARTY=1 by default to ensure
+    ubuntu-asahi ppa survives upgrade.
+  * Move asahi-audio to recommends since it doesn't exist in jammy
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 26 Apr 2024 23:17:39 +0200
+
 ubuntu-asahi (1.17) jammy; urgency=medium
 
   * Add asahi-audio dependency
