@@ -7,3 +7,4 @@ override_dh_auto_install:
 	    debian/apt/ubuntu-asahi.sources.in > \
 	    debian/apt/ubuntu-asahi.sources
 	dh_auto_install
+	touch debian/ubuntu-asahi/etc/cloud/cloud-init.disabled

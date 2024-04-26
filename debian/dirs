@@ -1,2 +1,3 @@
 etc/apt/sources.list.d
 etc/apt/preferences.d
+etc/cloud
