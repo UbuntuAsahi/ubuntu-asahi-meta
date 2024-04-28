@@ -1,4 +1,4 @@
 debian/9-asahi.conf			/etc/sysctl.d
 debian/apt/ubuntu-asahi.sources		/etc/apt/sources.list.d
 debian/apt/ubuntu-asahi.pref		/etc/apt/preferences.d
-debian/update-manager/ubuntu-asahi.conf	/etc/update-manager/release-upgrades.d/
+debian/update-manager/ubuntu-asahi.cfg	/etc/update-manager/release-upgrades.d/
