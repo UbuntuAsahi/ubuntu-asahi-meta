@@ -1,4 +1,4 @@
-ubuntu-asahi (1.19) jammy; urgency=medium
+ubuntu-asahi (1.19+23.10) mantic; urgency=medium
 
   * Add update-manager config instead of setting
     RELEASE_UPGRADER_ALLOW_THIRT_PARTY environment variable.
