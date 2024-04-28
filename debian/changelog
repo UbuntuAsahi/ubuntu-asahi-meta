@@ -1,3 +1,9 @@
+ubuntu-asahi (1.20+23.10) mantic; urgency=medium
+
+  * Port to 23.10
+
+ -- Tobias Heider <me@tobhe.de>  Sun, 28 Apr 2024 21:38:52 +0200
+
 ubuntu-asahi (1.20) jammy; urgency=medium
 
   * Rename update-manager config file. Only *.cfg are accepted.
