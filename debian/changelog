@@ -1,3 +1,9 @@
+ubuntu-asahi (1.20+24.04) noble; urgency=medium
+
+  * Port to 24.04
+
+ -- Tobias Heider <me@tobhe.de>  Sun, 28 Apr 2024 23:57:23 +0200
+
 ubuntu-asahi (1.20) jammy; urgency=medium
 
   * Rename update-manager config file. Only *.cfg are accepted.
