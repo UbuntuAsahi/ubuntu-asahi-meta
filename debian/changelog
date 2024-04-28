@@ -1,3 +1,9 @@
+ubuntu-asahi (1.21+24.04) noble; urgency=medium
+
+  * Port to 24.04
+
+ -- Tobias Heider <me@tobhe.de>  Mon, 29 Apr 2024 12:59:31 +0200
+
 ubuntu-asahi (1.21) jammy; urgency=medium
 
   * Remove protection-domain-mapper conflict. It causes upgrade
