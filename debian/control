@@ -11,13 +11,14 @@ Architecture: arm64
 Depends:
 	${misc:Depends},
 	alsa-ucm-conf-asahi,
-	asahi-audio,
 	asahi-configs,
 	asahi-scripts,
 	linux-apple-arm,
 	m1n1,
 	u-boot-asahi,
 	grub-efi-arm64
+Recommends:
+	asahi-audio
 Conflicts: protection-domain-mapper
 Multi-Arch: foreign
 Description: Packages for Apple Silicon
