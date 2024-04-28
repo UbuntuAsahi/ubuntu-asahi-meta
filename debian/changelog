@@ -1,3 +1,9 @@
+ubuntu-asahi (1.20) jammy; urgency=medium
+
+  * Rename update-manager config file. Only *.cfg are accepted.
+
+ -- Tobias Heider <me@tobhe.de>  Sun, 28 Apr 2024 21:36:51 +0200
+
 ubuntu-asahi (1.19) jammy; urgency=medium
 
   * Add update-manager config instead of setting
