@@ -1,3 +1,12 @@
+ubuntu-asahi (1.19) jammy; urgency=medium
+
+  * Add update-manager config instead of setting
+    RELEASE_UPGRADER_ALLOW_THIRT_PARTY environment variable.
+    This is better because it allows us to only keep the ubuntu-asahi
+    ppa instead of everything.
+
+ -- Tobias Heider <me@tobhe.de>  Sun, 28 Apr 2024 18:29:24 +0200
+
 ubuntu-asahi (1.18) jammy; urgency=medium
 
   * Move package distribution to the new launchpad team at ~ubuntu-asahi
