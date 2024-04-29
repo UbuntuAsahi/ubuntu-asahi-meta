@@ -19,7 +19,6 @@ Depends:
 	grub-efi-arm64
 Recommends:
 	asahi-audio
-Conflicts: protection-domain-mapper
 Multi-Arch: foreign
 Description: Packages for Apple Silicon
  This package depends on all of the packages required to run Ubuntu
