@@ -1,3 +1,9 @@
+ubuntu-asahi (1.22) noble; urgency=medium
+
+  * Kernel is now named linux-asahi-arm
+
+ -- Tobias Heider <me@tobhe.de>  Thu, 15 Aug 2024 00:20:45 +0200
+
 ubuntu-asahi (1.21+24.04) noble; urgency=medium
 
   * Port to 24.04
