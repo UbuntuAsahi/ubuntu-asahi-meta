@@ -1,3 +1,9 @@
+ubuntu-asahi (1.23) noble; urgency=medium
+
+  * Change mesa-2404 snap channel to asahi/stable
+
+ -- Tobias Heider <me@tobhe.de>  Wed, 28 Aug 2024 17:05:10 +0200
+
 ubuntu-asahi (1.22) noble; urgency=medium
 
   * Kernel is now named linux-asahi-arm
