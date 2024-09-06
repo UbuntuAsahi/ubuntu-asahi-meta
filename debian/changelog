@@ -1,4 +1,4 @@
-ubuntu-asahi (1.24) noble; urgency=medium
+ubuntu-asahi (1.25) noble; urgency=medium
 
   * Install mesa-2404 unconditionally to make sure we always use the
     correct channel.
