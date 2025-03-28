@@ -1,3 +1,9 @@
+ubuntu-asahi (1.26+24.10) oracular; urgency=medium
+
+  * Build for 24.10
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 28 Mar 2025 22:43:03 +0100
+
 ubuntu-asahi (1.26) noble; urgency=medium
 
   * Remove triggers, they are now in asahi-scripts
