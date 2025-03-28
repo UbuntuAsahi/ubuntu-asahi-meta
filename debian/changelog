@@ -1,3 +1,10 @@
+ubuntu-asahi (1.26) noble; urgency=medium
+
+  * Remove triggers, they are now in asahi-scripts
+  * Add hwdb file for auto suspend quirk
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 28 Mar 2025 22:36:14 +0100
+
 ubuntu-asahi (1.25) noble; urgency=medium
 
   * Install mesa-2404 unconditionally to make sure we always use the
