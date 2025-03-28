@@ -8,6 +8,10 @@ case "$1" in
 		snap refresh --channel asahi/stable --no-wait gnome-42-2204 || true
 		echo Refresh mesa-2404 snap to asahi/stable channel
 		snap refresh --channel asahi/stable --no-wait mesa-2404 || true
+
+		# Update hwdb and regenrate initrd
+		systemd-hwdb --usr update || true
+		update-initramfs -kall -u
 	;;
 
 	triggered)
