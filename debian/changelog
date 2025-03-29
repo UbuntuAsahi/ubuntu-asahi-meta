@@ -1,8 +1,14 @@
-ubuntu-asahi (1.26+24.10) oracular; urgency=medium
+ubuntu-asahi (1.27+24.10) oracular; urgency=medium
 
-  * Build for 24.10
+  * Build for Ubuntu 24.10
 
- -- Tobias Heider <me@tobhe.de>  Fri, 28 Mar 2025 22:43:03 +0100
+ -- Tobias Heider <me@tobhe.de>  Sat, 29 Mar 2025 23:53:24 +0100
+
+ubuntu-asahi (1.27) noble; urgency=medium
+
+  * Fix livecd-rootfs ubuntu-asahi.pref bug in postinst
+
+ -- Tobias Heider <me@tobhe.de>  Sat, 29 Mar 2025 23:39:23 +0100
 
 ubuntu-asahi (1.26) noble; urgency=medium
 
