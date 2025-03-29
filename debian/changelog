@@ -1,3 +1,9 @@
+ubuntu-asahi (1.27) noble; urgency=medium
+
+  * Fix livecd-rootfs ubuntu-asahi.pref bug in postinst
+
+ -- Tobias Heider <me@tobhe.de>  Sat, 29 Mar 2025 23:39:23 +0100
+
 ubuntu-asahi (1.26) noble; urgency=medium
 
   * Remove triggers, they are now in asahi-scripts
