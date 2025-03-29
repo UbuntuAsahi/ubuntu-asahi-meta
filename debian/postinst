@@ -12,6 +12,17 @@ case "$1" in
 		# Update hwdb and regenrate initrd
 		systemd-hwdb --usr update || true
 		update-initramfs -kall -u
+
+		update-m1n1
+
+		# A bug in livecd-rootfs resulted in ubuntu-asahi.pref ending
+		# up in /etc/apt/preferences.d/preferences.d/
+		# Let's fix it...
+		if [ -f "/etc/apt/preferences.d/preferences.d/ubuntu-asahi.pref" ] &&
+		    [ ! -f "/etc/apt/preferences.d/ubuntu-asahi.pref" ]; then
+			cp /etc/apt/preferences.d/preferences.d/ubuntu-asahi.pref /etc/apt/preferences.d/ubuntu-asahi.pref
+			rm -rf /etc/apt/preferences.d/preferences.d
+		fi
 	;;
 
 	abort-upgrade|abort-remove|abort-deconfigure)
