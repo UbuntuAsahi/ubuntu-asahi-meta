@@ -1,8 +1,15 @@
-ubuntu-asahi (1.27+24.10) oracular; urgency=medium
+ubuntu-asahi (1.28+25.04) plucky; urgency=medium
 
-  * Build for Ubuntu 24.10
+  * Add libpipewire-0.3-modules-filters dependency which is
+    needed for the asahi audio stack
 
- -- Tobias Heider <me@tobhe.de>  Sat, 29 Mar 2025 23:53:24 +0100
+ -- Tobias Heider <me@tobhe.de>  Fri, 18 Apr 2025 02:51:52 +0200
+
+ubuntu-asahi (1.27+25.04) plucky; urgency=medium
+
+  * Build for Ubuntu 25.04
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 18 Apr 2025 00:33:11 +0200
 
 ubuntu-asahi (1.27) noble; urgency=medium
 
