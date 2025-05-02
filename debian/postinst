@@ -13,7 +13,7 @@ case "$1" in
 		systemd-hwdb --usr update || true
 		update-initramfs -kall -u
 
-		update-m1n1
+		update-m1n1 || true
 
 		# A bug in livecd-rootfs resulted in ubuntu-asahi.pref ending
 		# up in /etc/apt/preferences.d/preferences.d/
