@@ -1,3 +1,9 @@
+ubuntu-asahi (1.30+25.10) questing; urgency=medium
+
+  * pipewire lv2 filter module has moved to libspa-0.2-modules-extra
+
+ -- Tobias Heider <tobias.heider@canonical.com>  Sun, 31 Aug 2025 22:14:32 +0200
+
 ubuntu-asahi (1.29+25.04) plucky; urgency=medium
 
   * update-m1n1 fails during image builds, allow it to fail
