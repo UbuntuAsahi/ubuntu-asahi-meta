@@ -1,3 +1,9 @@
+ubuntu-asahi (1.29+25.04) plucky; urgency=medium
+
+  * update-m1n1 fails during image builds, allow it to fail
+
+ -- Tobias Heider <me@tobhe.de>  Fri, 02 May 2025 13:44:15 +0200
+
 ubuntu-asahi (1.28+25.04) plucky; urgency=medium
 
   * Add libpipewire-0.3-modules-filters dependency which is
